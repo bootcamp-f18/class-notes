@@ -1,12 +1,61 @@
-h1 {
-    color: purple;
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans|Open+Sans:300');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #093145;
+    color: #f2f3f4;
+    padding: 40px;
 }
 
-p {
-    line-height: 150%;
-    color: #999;
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Fira Sans', sans-serif;
+    color: #efd469;
+}
+
+h2 {
+    margin-top: 60px;
+}
+
+a {
+    color: #f58b4c;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #efd469;
+}
+
+h2 > a {
+    color: #efd469;
+}
+
+h2 > a:hover {
+    text-decoration: underline;
 }
 
 .st {
     text-decoration: line-through;
+}
+
+h1 {
+    text-align: center;
+}
+
+.tuck {
+    margin-left: 40px;
+}
+
+dd {
+    margin-left: 0;
+    padding-left: 0;
+    margin-bottom: 14px;
+}
+
+#nav {
+    height: 40px;
+}
+
+#nav > span {
+    padding-left: 10px;
+    padding-right: 10px;
 }
