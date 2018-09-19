@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-.st {
-    text-decoration: line-through;
-}
-
-=======
 @import url('https://fonts.googleapis.com/css?family=Fira+Sans|Open+Sans:300');
 
 body {
@@ -38,10 +32,9 @@ h2 > a {
 h2 > a:hover {
     text-decoration: underline;
 }
->>>>>>> d40e558a1b29c1c4026a3a596243f8a21d6a045e
 
-h1 {
-    text-align: center;
+.st {
+    text-decoration: line-through;
 }
 
 h1 {
