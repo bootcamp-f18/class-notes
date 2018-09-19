@@ -1,0 +1,17 @@
+.tucktwo {
+  margin-left: 20px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.text_center {
+  text-align:center;
+  margin-left: 200px;
+  margin-right: 200px;
+
+}
