@@ -7,6 +7,15 @@ body {
     padding: 40px;
 }
 
+.button {
+  border-style: double;
+  background-color: #efd469;
+  font-size: 20px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 100%;
+}
+
 h1,h2,h3,h4,h5,h6 {
     font-family: 'Fira Sans', sans-serif;
     color: #efd469;
@@ -43,6 +52,10 @@ h1 {
 
 .tuck {
     margin-left: 40px;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
 }
 
 dd {
