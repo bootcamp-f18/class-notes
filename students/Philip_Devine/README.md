@@ -19,6 +19,8 @@ $ cd [directory]
 
 Next, to see sass in action,
 
+Create 'main.scss'
+
 1. In the terminal, run:
 
 $ ../node_modules/.bin/sass [filename].scss output.css --watch
