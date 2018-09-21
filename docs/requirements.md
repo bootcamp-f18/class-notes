@@ -20,3 +20,5 @@
     * Additional content in this subdirectory will be added by each student as needed.
 
 4. Website should be attractive; a pretty website is much more pleasant to look at.
+
+* We pulled color palette inspiration from here: https://www.viget.com/articles/color-contrast/
