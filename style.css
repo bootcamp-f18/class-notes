@@ -7,9 +7,13 @@ body {
     padding: 40px;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,h2,h3,h4 {
     font-family: 'Fira Sans', sans-serif;
     color: #efd469;
+}
+
+h5 {
+    color: #f58b4c;
 }
 
 h2 {
@@ -33,12 +37,12 @@ h2 > a:hover {
     text-decoration: underline;
 }
 
-.st {
-    text-decoration: line-through;
-}
-
 h1 {
     text-align: center;
+}
+
+.st {
+    text-decoration: line-through;
 }
 
 .tuck {
