@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>October 2, 2018 </title>
+    <link href="../style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div id="nav">
+        <a href="../index.html">Home</a>
+    </div>
+
+    <h1>October 2, 2018</h1>
+
+    <h2>Terminology</h2>
+    <div class="tuck">
+
+        <ul>
+            <li>Deployment (Github, Heroku, etc.)</li>
+        </ul>
+
+    </div>
+
+    <h2>Web links</h2>
+    <div class="tuck">
+
+        <dl>
+
+            <dt><a target="_blank" href="https://www.heroku.com/home">Heroku</a></dt>
+            <dd>Deployment resource for web applications.</dd>
+
+        </dl>
+
+    </div>
+
+    <h2>Code Repos</h2>
+    <div class="tuck">
+
+        <dl>
+
+            <dt>Tic-Tac-Toe</dt>
+            <dd>Created and worked on our own repos for Tic-Tac-Toe practicing our tooling and JavaScript skills.</dd>
+
+        </dl>
+
+    </div>
+
+    <h2>List of Stuff We Talked About</h2>
+    <div class="tuck">
+        <ul>
+            <li>Project Initialization</li>
+              <ul>
+                <li>Tooling</li>
+                  <ul>
+                    <li>Create directory and set up file heirarchy (src & dist directories).</li>
+                    <li>Code management and revision history
+                      <ul>
+                        <li>git init to add directory to our project. gitkeep as placeholder. gitignore file. Using Github as our centralized repository.
+                        </li>
+                    </ul>
+                    <li>Managing dependencies</li>
+                    <ul>
+                      <li>Sass: CSS pre-processor.</li>
+                      <li>Bootstrap: CSS Framework.</li>
+                      <li>Browser-sync: auto reload.</li>
+                      <li>Babel: JavaScript transpiler.</li>
+                      <li>Concurrently: allows us to run everything in one tab of the command line.</li>
+                      <li>CPX: copies files to JavaScript. Also has other cool features we should look into.</li>
+                    </ul>
+                  </ul>
+                <li>Deployment Options</li>
+                  <ul>
+                    <li>GitHub Pages - limited in scope.</li>
+                    <li>Jekyll - server environment that works will with lots of content. Limited due to it's relationship with GitHub.</li>
+                    <li>Heroku - the answer to our prayers. Provides a url to view code in a web server environment.</li>
+                  </ul>
+                </ul>
+              <li> Heroku</li>
+                <ul>
+                  <li>Create a project that is ready to view.</li>
+                  <li>Set up node and express (lightweight web server; project specific but can be installed globally) to view things locally.</li>
+                    <ul>
+                      <li>create an index.js and Procfile (use this spelling to avoid errors) within the root directory using boilerplate discussed in class.</li>
+                    </ul>
+                  <li>On Heroku dashboard make a new app, name it, and copy the command for adding a remote to git.</li>
+                  <li>Within the project: add the Heroku remote.</li>
+                  <li>Push to Heroku (git push heroku master).</li>
+                    <ul>
+                      <li> Hopefully you have success. If not trouble shoot by focusing on these common issues: index.js; /dist; make a new app; remote; Procfile.
+                    </ul>
+                </ul>
+          </ul>
+
+            </div>
+
+    <!-- javascript -->
+    <script src="../main.js"></script>
+</body>
+</html>
