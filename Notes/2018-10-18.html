@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>October 18, 2018</title>
+    <link href="../style.css" rel="stylesheet" type="text/css">
+    <style>
+        pre, code {
+            font-size:1.3em;
+            padding: inherit 4px;
+        }
+    </style>
+</head>
+<body>
+    <div id="nav">
+        <a href="../index.html">Home</a>
+    </div>
+
+    <h1>October 18, 2018</h1>
+
+    <h2>Terminology</h2>
+    <div class="tuck">
+
+        <dl>
+
+            <dt>Unary Operators</dt>
+            <dd>Operators that act on one (and only one) value<br />
+                Ex: <code>i<strong>++</strong></code>, <code>i<strong>--</strong></code></dd>
+
+            <dt>Binary Operators</dt>
+            <dd>Operators that act on two values<br />
+                Ex: <code>x <strong>+</strong> y</code>, <code>x <strong>%</strong> y</code></dd>
+
+            <dt>THE Ternary Operator</dt>
+            <dd>An operator that acts on three values. There's only one:<br />
+                <code>x <strong>?</strong> y <strong>:</strong> z</code><br />
+                This is the same as
+<pre>
+if (x) {
+    y;
+} else {
+    z;
+}
+</pre>
+                (See <a href="https://medium.com/@jraleman/ternary-operators-vs-if-else-statements-6c26f7d034f7" target="_blank">this explanation</a>&mdash;thanks, Phillip!)
+        </dl>
+
+    </div>
+
+    <h2>Web links</h2>
+    <div class="tuck">
+
+        <dl>
+
+            <dt><a href="https://getbootstrap.com/docs/4.1/getting-started/introduction/" target="_blank">Bootstrap documentation</a></dt>
+            <dt><a href="https://vuejs.org/v2/guide/" target="_blank">Vue documentation</a></dt>
+            <dd>As always.</dd>
+
+
+        </dl>
+
+    </div>
+
+    <h2>Code Repos</h2>
+    <div class="tuck">
+
+        <dl>
+
+            <dt><a href="https://github.com/bootcamp-f18/vue-contacts" target="_blank">vue-contacts</a></dt>
+            <dd>We spent the bulk of the day adding the following functionality to this contact manager together:
+                <ul>
+                    <li>Add a contact</li>
+                    <li>Edit a contact</li>
+                    <li>Delete a contact</li>
+                    <li>Sort the contacts</li>
+                    <li>Filter the contacts</li>
+                    <li>Show and hide the contact form</li>
+                    <li>Store contacts in local storage</li>
+                    <li>Add a cancel button on the edit form</li>
+                    <li>Provide a message if the contact list is empty</li>
+                    <li>Validate user input</li>
+                </ul>
+            </dd>
+
+        </dl>
+
+    </div>
+
+    <h2>List of Stuff We Talked About</h2>
+    <div class="tuck">
+        <ul>
+            <li>Sorting arrays in Javascript
+                <ul>
+                    <li>Use a comparison function to sort by the value of an object property.</li>
+                    <li>Refer to a variable object property with bracket notation.<br />
+                        E.g. If <code>sortByField = 'firstname'</code> then <code>a[sortByField]</code> is the same thing as <code>a.firstname</code>.</li>
+                    <li>Reverse all array elements with <code>Array.sort()</code></li>
+                </ul>
+            </li>
+            <li>We can refer to Vue variables in the console with <code>$vm0</code> or <code>app</code>.</li>
+        </ul>
+    </div>
+
+
+    <!-- javascript -->
+    <script src="../main.js"></script>
+</body>
+</html>
