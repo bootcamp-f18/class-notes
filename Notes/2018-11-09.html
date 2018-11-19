@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>November 9, 2018</title>
+    <link href="../style.css" rel="stylesheet" type="text/css">
+    <style>
+        code,pre {
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="nav">
+        <a href="../index.html">Home</a>
+    </div>
+
+    <h1>November 9, 2018</h1>
+
+
+
+    <h2>Code Repos</h2>
+    <div class="tuck">
+        <ul>
+            <li><a href="https://github.com/bootcamp-f18/laravel-test">Laravel-Test</a></li>
+            <li><a href="https://github.com/bootcamp-f18/laravel-weather">Laravel-Weather</a></li>
+        </ul>
+    </div>
+
+    <h2>List of Stuff We Talked About</h2>
+    <div class="tuck">
+        <h3>Configuring the Heroku production environment for Laravel</h3>
+        <ol>
+            <li>In the Heroku dashboard:
+                <ul>
+                    <li>In the config vars, set <code>APP_ENV</code> = production</li>
+                </ul>
+            <li>In Laravel:
+                <ul>
+
+                    <li>In <code>app/Providers/AppServiceProvider.php</code>, add the following code to the <code>boot()</code> method to enforce connection via HTTPS at all times:
+<pre>
+if(env('APP_ENV') == 'production') {
+    \URL::forceScheme('https');
+}
+</pre>
+                    </li>
+
+                    <li>Use the <code>asset()</code> Laravel <a href="https://laravel.com/docs/5.7/helpers#method-asset" target="_blank">helper function</a> to generate urls to CSS and JS files in your HTML.</li>
+
+                    <li>Before pushing your code to Heroku, run <code>npm run prod</code> to have Laravel package your code for a production environment.</li>
+                </ul>
+            </li>
+        </ol>
+
+
+    </div>
+
+
+    <!-- javascript -->
+    <script src="../main.js"></script>
+</body>
+
+</html>
